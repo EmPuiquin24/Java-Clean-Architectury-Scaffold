@@ -1,5 +1,5 @@
 # Java-Clean-Architectury-Scaffold
-Simple Zsh script to scaffold domain, application, and infrastructure layers for Clean Architecture projects and also a initial template for every Entity, EntityController, EntityService and EntityRepository file.
+A simple Zsh script that scaffolds domain, application, and infrastructure layers for Clean Architecture projects, with initial boilerplate templates for each entity class, controller, service, and repository.
 
 ## Features
 - Creates a folder for each entity in the current directory.
