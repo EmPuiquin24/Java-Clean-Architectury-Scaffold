@@ -9,9 +9,8 @@ Simple Zsh script to scaffold domain, application, and infrastructure layers for
 - Detects current project structure (e.g. `src/main/java/...`) to build correct package names.
 
 ## Usage
-- Paste the script file into the folder where you want to create the layers. 
-For example, if you want to create it in the `src/main/java/com/example:
-- `Navigate into `src/main/java/com/example` folder.
+For example, we want to create a `User` and `Company` entity in the `.../com.example/autostructure folder`.
+- Navigate into `src/main/java/com/autostructure` folder and paste the `create_layers.sh`file .
 - Edit the script file so It should look like this:
 
 ```bash
@@ -19,7 +18,7 @@ For example, if you want to create it in the `src/main/java/com/example:
 
 ...
 
-# Set the entities you want to create
+# Set the entities you want to create starting in the 10th line
 
 ENTITIES=(
     "User"
