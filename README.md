@@ -39,7 +39,7 @@ chmod +x create_layers.sh
 This script should generate the following structure:
 ```
 autostructure/
-├── User/
+├── user/
 │   ├── domain/
 │   │   ├── User.java
 │   │   └── UserService.java
@@ -47,7 +47,7 @@ autostructure/
 │   │   └── UserController.java
 │   └── infrastructure/
 │       └── UserRepository.java
-└── Company/
+└── company/
     ├── domain/
     │   ├── Company.java
     │   └── CompanyService.java
